@@ -1,0 +1,41 @@
+<!-- # web-js-dom-exercise-01 (Part 1)
+
+## Re-create your own “Hello World!” and “Click me” Button
+
+- Create an index.html and script.js
+- For CSS, create a style.css or use Tailwind CSS via CDN
+- Breakdown your step-by-step DOM manipulation
+- Explain your code line-by-line to your peers
+- Challenge: Add more elements to display more messages
+
+  ![JS DOM Hello World!](web-js-dom-exercise-01.png)
+___
+# web-js-dom-exercise-01 (Part 2)
+
+## Modify your CSS on “Hello World!” and “Click me” Button
+- Breakdown your step-by-step DOM manipulation
+- Explain your code line-by-line to your peers -->
+
+<!DOCTYPE >
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <container
+      class="flex flex-col items-center justify-center h-screen bg-gray-100"
+    >
+      <h1>Hello World!</h1>
+      <button
+        type="button"
+        class="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
+      >
+        Click me
+      </button>
+    </container>
+    <script src="script.js"></script>
+  </body>
+</html>
